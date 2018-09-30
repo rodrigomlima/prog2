@@ -1,4 +1,6 @@
 /*
+    Programa para controle de estoque, com o estoque com alocação dinâmica
+
     FEITO POR: Rodrigo de Lima Martins
     O programa não implementa nenhum controle de códigos iguais
 */
@@ -14,12 +16,12 @@ typedef struct Estoque
 } Estoque;
 
 // PROTÓTIPO DAS FUNÇÕES
-int adicionar_estoque(Estoque estoque[], int tamanho);  // Adiciona itens ao estoque
-int pedido_cliente(Estoque estoque[], int tamanho);     // Analisa pedidos dos clientes
-void listar_estoque(Estoque estoque[], int tamanho);    // Lista o estoque atual
+int adicionar_estoque(Estoque estoque[], int tamanho);              // Adiciona itens ao estoque
+int pedido_cliente(Estoque estoque[], int tamanho);                 // Analisa pedidos dos clientes
+void listar_estoque(Estoque estoque[], int tamanho);                // Lista o estoque atual
 // Funções auxiliares
-int busca_item(Estoque estoque[], int busca, int tamanho);         // Busca se item existe no estoque
-int busca_quantidade(Estoque estoque[], int busca, int codigo);   // Busca se a quantidade é atendível no estoque
+int busca_item(Estoque estoque[], int busca, int tamanho);          // Busca se item existe no estoque
+int busca_quantidade(Estoque estoque[], int busca, int codigo);     // Busca se a quantidade é atendível no estoque
 
 // FUNÇÃO MAIN
 int main(void)
