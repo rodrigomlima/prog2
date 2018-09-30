@@ -1,11 +1,12 @@
 /*
+    ExercÃ­cio 1: Somar nÃºmeros de 1 atÃ© N com recursividade
     FEITO POR: Rodrigo de Lima Martins
 */
 
 #include <stdio.h>
 #include <stdlib.h>
 
-// Função recursiva para somar números de 1 até N (digitado pelo usuário)
+// FunÃ§Ã£o recursiva para somar nÃºmeros de 1 atÃ© N (digitado pelo usuÃ¡rio)
 int somaN(int n)
 {
     int r;                  // Armazena o resultado
@@ -17,16 +18,16 @@ int somaN(int n)
         return r;           // Retorna o valor do resultado
     }
 }
-// Função main
+// FunÃ§Ã£o main
 int main (void)
 {
-    int numero; // Para inserção do número
+    int numero; // Para inserÃ§Ã£o do nÃºmero
 
-    // Digita um número qualquer
+    // Digita um nÃºmero qualquer
     printf("Digite um numero: ");
     scanf("%d", &numero);
 
-    // Chama a soma de 1 até o N
+    // Chama a soma de 1 atÃ© o N
     printf("A soma de 1 ate %d e: %d", numero, somaN(numero));
 
     return 0;
