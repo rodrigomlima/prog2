@@ -1,4 +1,6 @@
 /*
+    Exercício 4: Programa para gerenciar um vetor de inteiros
+
     FEITO POR: Rodrigo de Lima Martins
 */
 

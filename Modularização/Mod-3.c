@@ -1,4 +1,6 @@
 /*
+    Exercício 3: Programa para zerar duas variáveis inteiras
+
     FEITO POR: Rodrigo de Lima Martins
 */
 

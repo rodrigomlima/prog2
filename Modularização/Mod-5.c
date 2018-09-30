@@ -1,4 +1,7 @@
 /*
+    Exercício 5: programa para gerenciar uma lista de contas
+    bancárias
+
     FEITO POR: Rodrigo de Lima Martins
 */
 

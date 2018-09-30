@@ -1,4 +1,6 @@
 /*
+    Exercício 1: Programa para calcular divisores primos
+
     FEITO POR: Rodrigo de Lima Martins
 */
 

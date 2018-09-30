@@ -1,4 +1,8 @@
 /*
+    Exercício 2: Programa para calcular probabilidade de bebês
+    nascerem com olhos azuis
+     - Não há certeza do seu efetivo funcionamento.
+
     FEITO POR: Rodrigo de Lima Martins
 */
 
