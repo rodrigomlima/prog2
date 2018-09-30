@@ -1,7 +1,9 @@
 /*
-    FEITO POR: Rodrigo de Lima Martins
+    Exercício 4: Programa para ler valores de um vetor
     O vetor foi definido estaticamente para facilitar a programação.
     Aplicações mais versáteis poderiam usar a mesma lógica.
+
+    FEITO POR: Rodrigo de Lima Martins
 */
 
 #include<stdio.h>

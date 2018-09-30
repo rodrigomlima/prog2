@@ -1,4 +1,7 @@
 /*
+    Exercício 3: programa para ler os 10 primeiros números
+    da sequência de fibonacci
+
     FEITO POR: Rodrigo de Lima Martins
 */
 
