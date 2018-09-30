@@ -1,23 +1,24 @@
 /*
+    Exerc√≠cio 2: Mostra n√∫meros de 1 a 50
     FEITO POR: Rodrigo de Lima Martins
 */
 
 #include<stdio.h>
 
-// FunÁ„o recursiva para imprimir os primeiros 50 numeros
+// Fun√ß√£o recursiva para imprimir os primeiros 50 numeros
 void printN (int n)
 {
     if (n <= 50) // Se ainda for verdadeira
     {
         printf("%d\n", n);  // Imprime o numero recebido
-        printN(++n);        // Chama a funÁ„o com incremento
+        printN(++n);        // Chama a fun√ß√£o com incremento
     }
 }
-// FunÁ„o main
+// Fun√ß√£o main
 int main (void)
 {
-    int n = 1;  // ComeÁa com o n˙mero 1
-    printN(n);  // Chama a funÁ„o recursiva
+    int n = 1;  // Come√ßa com o n√∫mero 1
+    printN(n);  // Chama a fun√ß√£o recursiva
 
     return 0;
 }
