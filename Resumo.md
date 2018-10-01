@@ -72,7 +72,7 @@ __Observação:__ para alternar entre modos de leitura, sempre abrir e fechar o 
 Escreve (_imprime_) num arquivo. Sintaxe:
 
 ```C
-fprintf(nome_do_arquivo, "Dados a inserir (pode-se por uma variável com %tipo", variável);
+fprintf(nome_do_arquivo, "Dados a inserir (pode-se por uma variável com %tipo)", variável);
 ```
 
 Sendo que _variável_ é opcional.
