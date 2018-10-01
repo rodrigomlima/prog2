@@ -4,7 +4,8 @@ Repositório com os códigos pedidos na disciplina de Algoritmos de Programaçã
 ## Itens deste repositório
 1. Códigos sobre modularização
 2. Códigos sobre recursividade
-3. Códigos sonbre alocação dinâmica de memória
+3. Códigos sobre alocação dinâmica de memória
+4. Códigos sobre manipulação de arquivos
 
-## Sobre manipulação de arquivos
-Um documento será preparado e inserido neste repositório, com algum possível código de exemplo
+## Sobre os códigos
+Todos os códigos feitos são de autoria do criador deste repositório
