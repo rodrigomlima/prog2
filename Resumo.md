@@ -94,7 +94,7 @@ fwrite(variável, tamanho_bytes, número_de_elementos, nome_do_arquivo);
 #### fread:
 Equivaliente ao _fwrite_, mas para ler em arquivos. Sintaxe:
 
-fread(tipo de dado, tamanho(bytes), número de elementos, arquivo);  // Lê no arquivo
+fread(tipo de dado, tamanho(bytes), número de elementos, arquivo);
 
 ```C
 fread(variável, tamanho_bytes, número_de_elementos, nome_do_arquivo);
@@ -119,7 +119,7 @@ Posiciona o cursor no arquivo. Sintaxe:
 fseek(nome_do_arquivo, tamanho, posição);
 ```
 * Por _tamanho_, deve-se dizer o quanto, em bytes o cursor irá se mover. Esta valor pode ser positivo (para frente) ou negativo (para trás).
-* Por _posição, deve-se dizer a posição de referência para mover o cursor, que pode ser:
+* Por _posição_, deve-se dizer a posição de referência para mover o cursor, que pode ser:
     * SEEK_SET: Começo do arquivo;
     * SEEK_CUR: Posição atual do cursor;
     * SEEK_END: Final do arquivo.
@@ -162,8 +162,6 @@ int main(void)
 ```
 
 Um exemplo clássico de passagem de parâmetros é a função _printf_.
-
-resultado = soma(2,4);
 
 ### Passagem de referência
 Este tipo de passagem permite permite manipulação de variáveis passadas, pois passa o endereço das variáveis. Note o uso do operador de ponteiros (*) e do operador de endereço (&) Exemplo:
