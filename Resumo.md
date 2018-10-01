@@ -3,7 +3,9 @@
 ## Manipulação de arquivos
 
 É necessária a biblioteca stdio.h para usar arquivos:
-    #include<stdio.h>
+```C
+#include<stdio.h>
+```
 
 ### Declaração de um arquivo
 
