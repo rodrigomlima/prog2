@@ -125,6 +125,20 @@ fseek(nome_do_arquivo, tamanho, posição);
     * SEEK_SET: Começo do arquivo;
     * SEEK_CUR: Posição atual do cursor;
     * SEEK_END: Final do arquivo.
+    
+#### rename:
+Renomeia um arquivo. Pode-se passar uma string por variável ou de forma literal. Sintaxe:
+
+```C
+rename(nome_antigo, nome_novo);
+```
+
+#### remove:
+Remove um arquivo. Deve-se passar o nome do arquivo em string ou de forma literal. Sintaxe:
+
+```C
+remove(nome_arquivo);
+```
 
 ## Modularização
 
