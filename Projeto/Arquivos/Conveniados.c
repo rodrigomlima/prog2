@@ -340,6 +340,7 @@ int conConveniado(int key) {
 int altConveniado(int pos) {
 
     Conveniado *update = malloc(sizeof(Conveniado));    // Alocado dinamicamente
+    int tam;
 
     FILE *lista;
     lista = fopen("conveniado.txt", "rb+"); // Leitura e atualização
@@ -350,7 +351,9 @@ int altConveniado(int pos) {
         return 1;
     }
 
-    fseek(lista, (pos * sizeof(Conveniado)), SEEK_SET); // Posi��o passada por refer�ncia
+    tam = sizeof(Conveniado);
+
+    fseek(lista, pos * tam, SEEK_SET); // Posi��o passada por refer�ncia
     fread(update, sizeof(Conveniado), 1, lista);        // Lê a estrutura
 
     printf("Contrato no: %d \n\n", update->noContrato);
