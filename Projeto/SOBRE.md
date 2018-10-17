@@ -67,7 +67,7 @@ O projeto pretende ainda contar com:
 5. Inserção de mensagens de erro mais educativas;
 6. Melhoria do uso da função de alteração de estoque;
 7. Simplificação de coleta de lixo no programa;
-8. Fechamento de arquivo e liberação de memória em condições de saída prococe que ainda não tem esta implementação;
+8. Fechamento de arquivo e liberação de memória em condições de saída prococe que ainda não tem está implementação;
 9. Simplificação da realização de vendas com cadastros novos;
 10. Maior versatilidade em algumas funções, para permitir um melhor reúso do código;
 11. Possíveis comentários desformatados.
